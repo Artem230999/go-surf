@@ -1,34 +1,33 @@
-html,
 body{
-  height: 100%;
-}
+  font-family: 'Fira Sans' sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 
-body{
-  display: flex;
-  flex-direction: column;
-  background-color: #0B0B0B;
-  color: #fff;
-  font-size: 24px;
-  line-height: 28px;
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
-  color: inherit;
 }
 
-.main{
-  flex-grow: 1;
-}
+.suptitle-left{
+font-size: 22px;
+line-height: 32px;
+letter-spacing: 7.33333px;
+text-transform: uppercase;
+color: #FFFFFF;
+opacity: 0.5;
+padding-left: 103px;
+position: relative;
+display: inline-block;
+&::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #fff;
+  left: 0;
+  top: 50%;
 
-.container{
-  max-width: 1220px;
-  padding: 0 10px;
-  margin: 0 auto;
 }
-
-.title{
-  font-size: 36px;
-  line-height: 42px;
-  color: #B70021;
 }
