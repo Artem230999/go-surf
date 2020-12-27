@@ -91,7 +91,8 @@
   }
   &__name{
     font-weight: 300;
-    line-height: 19px;    
+    line-height: 19px; 
+    text-transform: capitalize;   
   }
 }
 
@@ -132,6 +133,7 @@ z-index: 4;
       font-weight: 500;
       padding-top: 6px;
       margin-bottom: 20px;
+      text-transform: capitalize;
     }
   }
 }
@@ -164,6 +166,7 @@ z-index: 4;
   font-weight: 300;
   position: relative;
   padding-left: 19px;
+  text-transform: capitalize;
   &::before{
     content: '';
     position: absolute;
@@ -202,7 +205,9 @@ z-index: 4;
   }
 }
 
-
+.serf{
+  padding: 160px 0 210px;
+}
 
 
 
